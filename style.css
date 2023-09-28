@@ -1,0 +1,28 @@
+.box {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 5px solid rgb(24, 147, 168);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(38, 192, 212, 0.781);
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.box h2 {
+    color: rgb(196, 26, 26);
+}
+
+.box p {
+    color: rgb(0, 0, 0);
+}
+
+.box img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    /* adicionado para limitar a altura da imagem */
+}
